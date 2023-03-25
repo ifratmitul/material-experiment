@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import { HttpClientModule } from '@angular/common/http'
 import { CoreModule } from './core/core.module';
+import { NavBarComponent } from './core/components/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { CoreModule } from './core/core.module';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    NavBarComponent,
     CoreModule
   ],
   providers: [],
